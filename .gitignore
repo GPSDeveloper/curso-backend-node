@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Editores
+.vscode/
+.idea/
+
+# Node (usaremos nas próximas aulas)
+node_modules/
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*

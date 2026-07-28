@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curso Backend com Node.js</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <span class="logo-icon">{ }</span>
+          <div>
+            <strong>Backend Node.js</strong>
+            <small>Curso prático</small>
+          </div>
+        </div>
+        <button class="sidebar-toggle" id="sidebarToggle" aria-label="Fechar menu">✕</button>
+      </div>
+
+      <nav class="lesson-nav" id="lessonNav" aria-label="Aulas do curso"></nav>
+
+      <footer class="sidebar-footer">
+        <p>Prof.: Gilson</p>
+        <p>Aluno: Murilo</p>
+      </footer>
+    </aside>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="menu-btn" id="menuBtn" aria-label="Abrir menu">☰</button>
+        <div class="topbar-info">
+          <span class="badge" id="lessonBadge">Aula 01</span>
+          <h1 id="pageTitle">Introdução ao Backend</h1>
+        </div>
+      </header>
+
+      <article class="content" id="content"></article>
+    </main>
+  </div>
+
+  <script src="js/lessons.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
