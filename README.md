@@ -1,6 +1,6 @@
 # curso-backend-node
 
-Estrutura inicial do curso com frontend estatico e backend Node.js (Hello World).
+Estrutura inicial do curso com frontend estatico e backend Node.js (Hello World) para aula.
 
 ## Estrutura
 

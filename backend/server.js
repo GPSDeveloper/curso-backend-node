@@ -1,6 +1,6 @@
 import http from "node:http";
 
-const PORT = 3000;
+const PORT = 3009;
 
 const server = http.createServer((request, response) => {
   response.setHeader("Content-Type", "application/json; charset=utf-8");
